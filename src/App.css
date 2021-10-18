@@ -1,0 +1,26 @@
+.app{
+  background-color: #111111;
+}
+.splash{
+  background-repeat: no-repeat;
+  background-position: 0 15%;;
+  background-size: cover;
+  height: 300px;
+  justify-content:center ;
+  align-items: center;
+  display: flex;
+}
+.splash img{
+  height: 250px;
+}
+.container{
+  padding: 0 130px;
+  display: flex;
+  gap:1%;
+}
+.section-a{
+  width: 39%;
+}
+.section-b{
+  width:59%;
+}

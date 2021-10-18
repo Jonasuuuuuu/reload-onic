@@ -1,0 +1,198 @@
+.main{
+    color:#fff;
+    margin:20px;
+}
+
+.step-container{
+    margin:10px 0px;
+    background-color: #222;
+    border-radius: 1rem;
+}
+.step-divider{
+    padding:0px 20px;
+    background-color: #2e2e2e;
+    border-radius: 1rem 1rem 0 0;
+}
+.step-number{
+    border-radius: 20px;
+    background-color: #FFD200;
+    font-size: 16px;
+    font-weight: 400;
+    width:20px;
+    color:#000;
+    height: 20px;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+}
+.step-title{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-subtext{
+    font-size: 16px;
+    margin-block-start: -1em;
+}
+.top-up .section-subtext{
+    font-size: 16px;
+    margin-block-start: 0em;
+}
+.instructions .section-subtext{
+    font-size: 16px;
+    margin-block-start: 1em;
+    text-decoration: underline;
+}
+.payment-methods .section-subtext{
+    font-size: 16px;
+    margin-block-start: 1em;
+    text-decoration: underline;
+}
+.section-lowersubtext{
+    font-size: 12px;
+}
+.step-body{
+    padding:10px 20px 20px 20px;
+    display:flex;
+    gap: 1%;
+    flex-wrap: wrap;
+}
+.user-info-section{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.section-title{
+    width: 100%;
+    font-size: 24px;
+}
+.input-text-box{
+    text-align: center;
+    width: 99%;
+    outline: 0;
+    border: 1px solid #555;
+    background-color: #1d1d1d;
+    border-radius: 3px;
+    padding: 10px 13px;
+    font-size: 24px;
+    color: #fff;
+}
+.warning-text{
+    color:#f00;
+    font-size: 14px;
+    display:none;
+}
+.uid-section{
+    width: 58%;
+}
+.zid-section{
+    width: 38%;
+}
+.contact-info-section{
+    width: 99.2%;
+}
+
+.channel-button{
+    min-height: 60px;
+    width: 32%;
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    background-color:  #3e3e3e;
+    border:0px;
+    border-radius: 1rem;
+    margin:1% 0;
+}
+.channel-button:hover{
+    border:1px solid #FFD200;
+}
+.ammount-button{
+    min-height: 60px;
+    width: 32%;
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+    background-color:  #3e3e3e;
+    border:0px;
+    border-radius: 1rem;
+    margin:1% 0;
+}
+.ammount-button:hover{
+    border:1px solid #FFD200;
+}
+.payment-button{
+    min-height: 90px;
+    width:24%;
+    text-align: center;
+    color:#000;
+    font-size: 16px;
+    background-color:  #fff;
+    border:0px;
+    border-radius: 1rem;
+    margin:1% 0;
+}
+.payment-button:hover{
+    border:3px solid #FFD200;
+}
+#PromoCode{
+    width: 60%;
+}
+.center-j{
+    justify-content:center ;
+}
+.onic-button{
+    width: 15%;
+    text-align: center;
+    color:#000;
+    font-size: 24px;
+    background-color: #FFD200;
+    border:0px;
+    border-radius: .2rem;
+    padding: 10px 13px;
+}
+
+.logo{
+    text-align: center;
+    padding:10px;
+}
+.seperator{
+    width: 80%;
+    padding: 0.3px;
+    background-color: #555555;
+    text-align: center;
+    display: inline-block;
+}
+.top-up img{
+    width: 100%;
+    height: 100%;
+}
+.logo img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+  }
+.payment-icon-holder{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    display:flex;
+    gap:1%;
+    justify-content: center;
+}
+.payment-icon{
+    width: 24%;
+    height: 90px;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:1% 0;
+}
+.payment-icon img{
+    width:auto;
+    height:60px;
+}
