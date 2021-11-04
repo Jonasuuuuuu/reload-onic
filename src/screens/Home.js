@@ -14,7 +14,6 @@ function Home() {
             <div className="section-b">
                 <SectionIIB/>
             </div>
-            <BuyButton/>
         </div>
     )
 }

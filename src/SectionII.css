@@ -152,7 +152,9 @@
     border-radius: .2rem;
     padding: 10px 13px;
 }
-
+.f-width{
+    width: 100%;
+}
 .logo{
     text-align: center;
     padding:10px;

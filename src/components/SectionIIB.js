@@ -77,7 +77,7 @@ function SectionIIB() {
                         <p className="section-price-title">Total</p>   
                         <p className="section-price">PHP 0.00</p>
                     </div>
-                    <button className="onic-button">Checkout</button>
+                    <button className="onic-button f-width">Checkout</button>
                 </div>
             </div>
         </div>

@@ -6,35 +6,27 @@ import {
     faYoutube,
     faInstagram
   } from '@fortawesome/free-brands-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from './onic-ph-logo.png';
 import '../Header.css';
-function Header() {
+
+function HeaderMobile() {
     return (
-        <div className="header-container">
-            <div className="header-logo">
+        <div className="header-container-mobile">
+            <FontAwesomeIcon className="menu-toggle onic-button" icon={faBars} />
+            <div className="header-logo mobile">
                 <img src={logo} alt="Logo"/>
             </div>
-            <span className="header-links">
-                <a className="header-link" href="">HOME</a>
-                <a className="header-link" href="">TALENTS</a>
-                <a className="header-link" href="">SHOP</a>
-                <a className="header-link" href="">PARTNERS</a>
-                <a className="header-link" href="">NEWS</a>
-                <a className="header-link" href="">LOOKBOOK</a>
-                <a className="header-link" href="">ABOUT</a>
-            </span>
-
-            <span className="header-social">
+            <span className="header-social mobile">
                 <FontAwesomeIcon className="social-media-icons" icon={faFacebook} />
                 <FontAwesomeIcon className="social-media-icons" icon={faInstagram} />
                 <FontAwesomeIcon className="social-media-icons" icon={faYoutube} />
                 <FontAwesomeIcon className="social-media-icons" icon={faTiktok} />
                 <FontAwesomeIcon className="social-media-icons" icon={faTwitter} />
             </span>
-
         </div>
     )
 }
 
-export default Header
+export default HeaderMobile

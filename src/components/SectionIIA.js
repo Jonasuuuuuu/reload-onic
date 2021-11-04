@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './mlbb-logo.png';
+import connectOn from './connecton_logo_w.png'
 import topup from './top-up-splash.png';
 import paymentlogo from './payment-sample.png';
 import '../SectionII.css';
@@ -10,8 +11,9 @@ function SectionIIA() {
         <div className="main">
             <div className="logo">
                 <img src={logo} alt="ml-logo"/>
+                <img src={connectOn} alt="connecton-logo"/>
                 <p className="section-title">Mobile Legends: Bang Bang - Moontoon (PH)</p>
-                <p className="section-subtext">Recharge diamonds via the official onic store.</p>
+                <p className="section-subtext">Recharge diamonds via Connect On partnership with the official onic store.</p>
                 <div className="seperator"></div>
             </div>
             <div className="top-up">
