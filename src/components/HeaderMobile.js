@@ -6,7 +6,7 @@ import {
     faYoutube,
     faInstagram
   } from '@fortawesome/free-brands-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars,faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from './onic-ph-logo.png';
 import '../Header.css';
@@ -18,13 +18,7 @@ function HeaderMobile() {
             <div className="header-logo mobile">
                 <img src={logo} alt="Logo"/>
             </div>
-            <span className="header-social mobile">
-                <FontAwesomeIcon className="social-media-icons" icon={faFacebook} />
-                <FontAwesomeIcon className="social-media-icons" icon={faInstagram} />
-                <FontAwesomeIcon className="social-media-icons" icon={faYoutube} />
-                <FontAwesomeIcon className="social-media-icons" icon={faTiktok} />
-                <FontAwesomeIcon className="social-media-icons" icon={faTwitter} />
-            </span>
+            <FontAwesomeIcon className="onic-button" icon={faShoppingCart} />
         </div>
     )
 }

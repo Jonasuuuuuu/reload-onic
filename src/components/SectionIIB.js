@@ -39,7 +39,7 @@ function SectionIIB() {
             
             <div className="step-container">
                 <div className="step-divider">
-                    <p className="step-number">3</p><p className="step-title">Select Ammount</p>
+                    <p className="step-number">3</p><p className="step-title">Select Amount(1)</p>
                 </div>
                 <div className="step-body">
                     <button className="ammount-button inactive">11 Diamonds</button>
