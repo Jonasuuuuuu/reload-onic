@@ -5,6 +5,7 @@ import './App.css'
 import './Mobile.css'
 import HeroImg from './components/HeroImg';
 import HeaderMobile from './components/HeaderMobile';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       <HeroImg/>
       <Home/>
+      <Footer/>
     </div>
   );
 }
