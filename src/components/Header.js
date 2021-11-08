@@ -26,10 +26,10 @@ function Header() {
             </span>
 
             <span className="header-social">
-            <a className="header-social" href="https://www.facebook.com/onic.ph"><FontAwesomeIcon className="social-media-icons" icon={faFacebook} /></a>
-            <a className="header-social" href="https://www.instagram.com/onicphilippines"><FontAwesomeIcon className="social-media-icons" icon={faInstagram} /></a>
-            <a className="header-social" href="https://www.youtube.com/c/onicph"><FontAwesomeIcon className="social-media-icons" icon={faYoutube} /></a>
-            <a className="header-social" href="https://www.tiktok.com/@onic.ph"><FontAwesomeIcon className="social-media-icons" icon={faTiktok} /></a>
+            <a className="social-media-icons" href="https://www.facebook.com/onic.ph"><FontAwesomeIcon className="social-media-icons" icon={faFacebook} /></a>
+            <a className="social-media-icons" href="https://www.instagram.com/onicphilippines"><FontAwesomeIcon className="social-media-icons" icon={faInstagram} /></a>
+            <a className="social-media-iconsl" href="https://www.youtube.com/c/onicph"><FontAwesomeIcon className="social-media-icons" icon={faYoutube} /></a>
+            <a className="social-media-icons" href="https://www.tiktok.com/@onic.ph"><FontAwesomeIcon className="social-media-icons" icon={faTiktok} /></a>
             {/* <a className="header-social" href=""><FontAwesomeIcon className="social-media-icons" icon={faTwitter} /></a> */}
             </span>
 
