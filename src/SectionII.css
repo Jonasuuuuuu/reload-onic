@@ -39,6 +39,9 @@
     font-size: 16px;
     margin-block-start: 0em;
 }
+.fix-200px{
+    width: 200px !important;
+}
 .instructions .section-subtext{
     font-size: 16px;
     margin-block-start: 1em;

@@ -11,18 +11,18 @@ function SectionIIB() {
                     <div className="user-info-section">
                         <p className="section-title">Enter User Information</p>
                         <div className="uid-section">
-                            <input id="GameUserID"  className="input-text-box" type="text"/>
+                            <input id="GameUserID"  className="input-text-box" placeholder="User ID" type="text"/>
                             <p className="warning-text">User ID Invalid</p>
                         </div>
                         <div className="zid-section">
-                            <input id="GameZoneID" className="input-text-box" type="text"/>
+                            <input id="GameZoneID" className="input-text-box" placeholder="Zone ID" type="text"/>
                             <p className="warning-text">Zone ID Invalid</p>
                         </div>
                     </div>
                     <div className="contact-info-section">
                         <p className="section-title">Enter Email Address</p>
                         <p className="section-subtext">A reciept will be sent to your email upon successful purchase</p>
-                        <input id="Email" className="input-text-box" type="text"/>
+                        <input id="Email" className="input-text-box" placeholder="Email Address"  type="text"/>
                     </div>
                 </div>
                 
@@ -69,8 +69,8 @@ function SectionIIB() {
                     <p className="step-number">5</p><p className="step-title">Pay</p>
                 </div>
                 <div className="step-body center-j">
-                    <input id="PromoCode" className="input-text-box" type="text"/>
-                    <button className="onic-button">Apply</button>
+                    <input id="PromoCode" className="input-text-box" placeholder="Enter Coupon Code" type="text"/>
+                    <button className="onic-button fix-200px">Apply</button>
                 </div>
                 <div>
                     <div>
