@@ -11,7 +11,7 @@ import logo from './onic-ph-logo.png';
 import '../Header.css';
 function Header() {
     return (
-        <div className="header-container">
+        <div className="header-container sticky">
             <div className="header-logo">
                 <img src={logo} alt="Logo"/>
             </div>
