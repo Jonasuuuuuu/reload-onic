@@ -16,13 +16,11 @@ function Header() {
                 <img src={logo} alt="Logo"/>
             </div>
             <span className="header-links">
-                <a className="header-link" href="">HOME</a>
-                <a className="header-link" href="">TALENTS</a>
-                <a className="header-link" href="">SHOP</a>
-                <a className="header-link" href="">PARTNERS</a>
-                <a className="header-link" href="">NEWS</a>
-                <a className="header-link" href="">LOOKBOOK</a>
-                <a className="header-link" href="">ABOUT</a>
+                <a className="header-link" href="https://ph.onic-esports.com/">HOME</a>
+                <a className="header-link" href="https://ph.onic-esports.com/talents/">TALENTS</a>
+                <a className="header-link" href="#">SHOP</a>
+                <a className="header-link" href="https://ph.onic-esports.com/teams/">Teams</a>
+                <a className="header-link" href="https://ph.onic-esports.com/about/">ABOUT</a>
             </span>
 
             <span className="header-social">

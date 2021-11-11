@@ -15,7 +15,7 @@ function HeaderMobile() {
     return (
         <div className="header-container-mobile">
             <FontAwesomeIcon className="order-1 menu-toggle onic-button" icon={faBars} />
-
+        
             <div className="order-2 header-logo mobile">
                 <img src={logo} alt="Logo"/>
             </div>

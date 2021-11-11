@@ -108,8 +108,14 @@
     border-radius: 1rem;
     margin:1% 0;
 }
+.active{
+    border:2px solid #FFD200!important;
+}
 .channel-button:hover{
+    background-color: #fff;
+    color: #3e3e3e;
     border:1px solid #FFD200;
+    cursor: pointer;
 }
 .ammount-button{
     min-height: 60px;
@@ -123,7 +129,10 @@
     margin:1% 0;
 }
 .ammount-button:hover{
+    background-color: #fff;
+    color: #3e3e3e;
     border:1px solid #FFD200;
+    cursor: pointer;
 }
 .payment-button{
     min-height: 90px;
@@ -131,13 +140,20 @@
     text-align: center;
     color:#000;
     font-size: 16px;
-    background-color:  #fff;
+    background-color: #fff;
     border:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 1rem;
     margin:1% 0;
 }
+.payment-button img{
+    width: 80%;
+}
 .payment-button:hover{
     border:3px solid #FFD200;
+    cursor: pointer;
 }
 #PromoCode{
     width: 60%;
@@ -198,6 +214,14 @@
     margin:1% 0;
 }
 .payment-icon img{
-    width:auto;
+    width:80%;
     height:60px;
+}
+.section-price{
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-price-title{
+    font-size: 20px;
+    font-weight: 600;
 }
