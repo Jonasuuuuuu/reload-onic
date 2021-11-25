@@ -161,21 +161,6 @@
 .center-j{
     justify-content:center ;
 }
-.onic-button{
-    width: 15%;
-    text-align: center;
-    color:#000;
-    font-size: 24px;
-    background-color: #FFD200;
-    border:0px;
-    border-radius: .2rem;
-    padding: 10px 13px;
-}
-.onic-button:hover{
-    border:1px solid #FFD200;
-    background-color:#000;
-    color: #FFD200;
-}
 .f-width{
     width: 100%;
 }

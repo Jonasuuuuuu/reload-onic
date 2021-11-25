@@ -38,6 +38,21 @@
         margin: 15px;
         width: 120px!important;
     }
+    .success-buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%!important;
+    }
+    .success-buttons .fix-200px{
+        width:200px !important;
+    }
+    .splash-text{
+        font-size: 25px!important;
+    }
+    .success-main{
+        width: 80%!important;
+    }
   }
 
 .header-mobile{

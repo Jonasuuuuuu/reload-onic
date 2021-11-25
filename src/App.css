@@ -2,8 +2,26 @@
   font-family: 'Druk';
   src: local('Poppins'), url(./fonts/Druk-Wide-Bold.woff) format('woff');
 }
+body{
+  background-color: #111111;
+}
 .app{
   background-color: #111111;
+}
+.onic-button{
+  width: 15%;
+  text-align: center;
+  color:#000;
+  font-size: 24px;
+  background-color: #FFD200;
+  border:0px;
+  border-radius: .2rem;
+  padding: 10px 13px;
+}
+.onic-button:hover{
+  border:1px solid #FFD200;
+  background-color:#000;
+  color: #FFD200;
 }
 .splash{
   background-repeat: no-repeat;
