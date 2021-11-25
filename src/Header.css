@@ -120,9 +120,9 @@ img{
 }
 @keyframes pulseOnce { 
     0% {-webkit-transform: translateY(-100%);opacity:0%;} 
-    50%{opacity:5%;} 
-    75%{opacity:50%;} 
-    100%{-webkit-transform: translateY(0%);opacity:100%;} 
+    50%{opacity: 5% !important;} 
+    75%{opacity:50% !important;} 
+    100%{-webkit-transform: translateY(0%);opacity:100% !important;} 
 }
 @keyframes pulseOut { 
     0% {-webkit-transform: translateY(0%);opacity:100%;} 
