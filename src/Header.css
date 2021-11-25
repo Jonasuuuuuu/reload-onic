@@ -119,16 +119,16 @@ img{
     margin-right: 0px !important;
 }
 @keyframes pulseOnce { 
-    0% {-webkit-transform: translateY(-100%);opacity:0%;} 
+    0% {-webkit-transform: translateY(-100%);opacity: 0% !important;;} 
     50%{opacity: 5% !important;} 
     75%{opacity:50% !important;} 
     100%{-webkit-transform: translateY(0%);opacity:100% !important;} 
 }
 @keyframes pulseOut { 
-    0% {-webkit-transform: translateY(0%);opacity:100%;} 
-    50%{opacity:10%;} 
-    75%{opacity:0%;} 
-    100%{-webkit-transform: translateY(-100%);opacity:0%;} 
+    0% {-webkit-transform: translateY(0%);opacity: 100% !important;;} 
+    50%{opacity: 10% !important;;} 
+    75%{opacity: 0% !important;;} 
+    100%{-webkit-transform: translateY(-100%);opacity: 0% !important;;} 
 }
 .pulseIn {
     animation: pulseOnce 1s ease-in-out both;
