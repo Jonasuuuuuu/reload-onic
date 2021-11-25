@@ -171,6 +171,11 @@
     border-radius: .2rem;
     padding: 10px 13px;
 }
+.onic-button:hover{
+    border:1px solid #FFD200;
+    background-color:#000;
+    color: #FFD200;
+}
 .f-width{
     width: 100%;
 }
@@ -225,4 +230,7 @@
     padding-left: 20px;
     font-size: 20px;
     font-weight: 600;
+}
+.hidden{
+    display: none;
 }

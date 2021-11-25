@@ -11,7 +11,7 @@
   background-size: cover;
   height: 300px;
   justify-content:center ;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
 }
 .splash-title{
